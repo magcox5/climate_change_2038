@@ -1,4 +1,4 @@
-# final_project
+# Final_project
 
 ## By John Byun, Kat Anggasastra, Melissa Wright and Molly Cox
 ### [With additional technical support from tutors Mark Steadman,  Alexis McKenzie, and Earnest Long Jr.]
@@ -10,7 +10,7 @@
 5. 15-minute data deep-dive or infrastructure walkthrough that shows machine learning in the context of what we’ve already learned.
 6. Examples: Create an analysis of existing data to make a prediction, classification, or regression. We use: Prediction and Regression
 
-### Dataset
+### Datasets
 
 #### Temperature Data found in Kaggle:  https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data#GlobalTemperatures.csv
 Original Source is Berkeley Earth Surface Temperature Study, a group affiliated with Lawrence Berkeley National Laboratory
@@ -38,3 +38,14 @@ This dataset contains the Global Mean Sea Level (GMSL) generated from the Integr
 * Source File:        
 * Jupyter Notebook:   emissions_scrub.ipynb
 * Scrubbed File:      population_data.csv
+
+
+### ETL PROCESS 
+
+
+
+ ### Challenges
+
+
+
+ ### If we had more time...
