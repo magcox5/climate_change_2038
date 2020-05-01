@@ -3,7 +3,7 @@
 ## By John Byun, Kat Anggasastra, Melissa Wright and Molly Cox
 ### [With additional technical support from tutors Mark Steadman,  Alexis McKenzie, and Earnest Long Jr.]
 ## The Task
-1.Find a problem worth solving, analyzing, or visualizing
+1. Find a problem worth solving, analyzing, or visualizing
 2. Use ML in the context of technologies learned.
 3. Use: Scikit-Learn and/or another machine learning library. We use: Prophet  https://facebook.github.io/prophet/
 4. Use at least two of: We Use:  Python Pandas , Python Matplotlib , HTML/CSS, JavaScript Plotly
