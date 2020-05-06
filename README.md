@@ -16,12 +16,18 @@
 
 #### Tableau Visualization
 
+<<<<<<< HEAD
         
 
+=======
+![Tableau Sea Temp](images/Tableau_sea_temp_fig1.png)
+>>>>>>> 097175861b7a10520adae3aa1fa628b6b37c5286
 
 
 ### Datasets
 
+
+## ETL Process 
 #### Temperature Data found in Kaggle:  https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data#GlobalTemperatures.csv
 Original Source is Berkeley Earth Surface Temperature Study, a group affiliated with Lawrence Berkeley National Laboratory
 We are interested in Average Yearly Land and Ocean Data from 1990 on.
