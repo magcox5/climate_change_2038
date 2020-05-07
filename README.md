@@ -33,9 +33,9 @@ Original Source is Berkeley Earth Surface Temperature Study, a group affiliated 
 We are interested in Average Yearly Land and Ocean Data from 1990 on.
 * Source File:        GlobalTemperatures.csv
 * Jupyter Notebooks:   Temp_Scrub, Temp_Scrub-AllYears, Temp_Scrub-AllYears-Min-Max
-* Scrubbed File:      temp_data.csv, temp_data-AllYears.csv, temp_data-Min-Max.csv
+* Scrubbed Files:      temp_data.csv, temp_data-AllYears.csv, temp_data-Min-Max.csv
 
-#### Sea Level Data found in NSA Website: https://sealevel.nasa.gov/understanding-sea-level/key-indicators/global-mean-sea-level/
+#### Sea Level Data found in NASA Website: https://sealevel.nasa.gov/understanding-sea-level/key-indicators/global-mean-sea-level/
 This dataset contains the Global Mean Sea Level (GMSL) generated from the Integrated Multi-Mission Ocean Altimeter Data for Climate Research (GMSL dataset) available for download. 
 * Source File: GMSL_merged_nasa_1993_2020
 * Jupyter Notebook:   sealevel_scrub.ipynb
