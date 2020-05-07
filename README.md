@@ -1,7 +1,7 @@
 # Final_project
 
 ## By John Byun, Kat Anggasastra, Melissa Wright and Molly Cox
-### [With additional technical support from tutors Mark Steadman,  Alexis McKenzie, and Earnest Long Jr.]
+### [With additional technical support from tutors Mark Steadman and Alexis McKenzie]
 ## The Task
 1. Find a problem worth solving, analyzing, or visualizing
 2. Use ML in the context of technologies learned.
@@ -27,15 +27,15 @@
 ### Datasets
 
 
-## ETL Process 
+## Scrubbing Process 
 #### Temperature Data found in Kaggle:  https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data#GlobalTemperatures.csv
 Original Source is Berkeley Earth Surface Temperature Study, a group affiliated with Lawrence Berkeley National Laboratory
 We are interested in Average Yearly Land and Ocean Data from 1990 on.
 * Source File:        GlobalTemperatures.csv
-* Jupyter Notebook:   Temp_Scrub.ipynb
-* Scrubbed File:      temp_data.csv
+* Jupyter Notebooks:   Temp_Scrub, Temp_Scrub-AllYears, Temp_Scrub-AllYears-Min-Max
+* Scrubbed Files:      temp_data.csv, temp_data-AllYears.csv, temp_data-Min-Max.csv
 
-#### Sea Level Data found in NSA Website: https://sealevel.nasa.gov/understanding-sea-level/key-indicators/global-mean-sea-level/
+#### Sea Level Data found in NASA Website: https://sealevel.nasa.gov/understanding-sea-level/key-indicators/global-mean-sea-level/
 This dataset contains the Global Mean Sea Level (GMSL) generated from the Integrated Multi-Mission Ocean Altimeter Data for Climate Research (GMSL dataset) available for download. 
 * Source File: GMSL_merged_nasa_1993_2020
 * Jupyter Notebook:   sealevel_scrub.ipynb
