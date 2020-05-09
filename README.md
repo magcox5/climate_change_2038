@@ -105,31 +105,43 @@ China’s ppm is rather low because in they only ramping up since 1947.
 Data Source:  https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data#GlobalTemperatures.csv
 Original Source is Berkeley Earth Surface Temperature Study, a group affiliated with Lawrence Berkeley National Laboratory
 We are interested in Average Yearly Land and Ocean Data from 1990 on.
-* Source File:        GlobalTemperatures.csv
-* Jupyter Notebooks:   Temp_Scrub, Temp_Scrub-AllYears, Temp_Scrub-AllYears-Min-Max
-* Scrubbed Files:      temp_data.csv, temp_data-AllYears.csv, temp_data-Min-Max.csv
+* __Source File__:        GlobalTemperatures.csv
+* __Jupyter Notebooks__:   
+__Scrubbing Files__:  Temp_Scrub,  Temp_Scrub-AllYears,   Temp_Scrub-AllYears-Min-Max  
+__Analysis Files__:  x_CO2_y_Temperature_correlation, x_MinTemp_y_MaxTemp_correlation,   x_Population_y_Temperature_correlation,   x_Year_y_Temperature_correlation  
+* __Scrubbed Data Files__:      temp_data.csv, temp_data-AllYears.csv, temp_data-Min-Max.csv
+* __Visualization Images (.png)__:  
+population_to_co2, co2_to_temp, pop_to_temp, Min_vs_Max_Temp, Year_to_Temp_correlation
 
 #### Sea Level Data 
 Data Source: https://sealevel.nasa.gov/understanding-sea-level/key-indicators/global-mean-sea-level/
 This dataset contains the Global Mean Sea Level (GMSL) generated from the Integrated Multi-Mission Ocean Altimeter Data for Climate Research (GMSL dataset) available for download. 
-* Source File: GMSL_merged_nasa_1993_2020
-* Jupyter Notebook:   sealevel_scrub.ipynb
-* Scrubbed File:      sealevel_data.csv
-
+* __Source File__: GMSL_merged_nasa_1993_2020
+* __Jupyter Notebooks__:  sealevel_scrub.ipynb
+* __Scrubbed Data Files__:  sealevel_data.csv
+* __Visualization Images (.png)__
 
 #### Population Data found :
 
-* Source File:        WORLD_POP.csv 
-* Jupyter Notebook:   population_scrub.ipynb
-* Scrubbed File:      population_data.csv
+* __Source File__:        WORLD_POP.csv 
+* __Jupyter Notebooks__:  population_scrub.ipynb
+* __Scrubbed Data Files__: population_data.csv
 
 #### Emissions Data found :
 
-* Source File:        CO2_data
-* Jupyter Notebook:   emissions_scrub.ipynb
-* Scrubbed File:      co2_ppm.csv and co-emissions-per-capita
+* __Source File__:        CO2_data
+* __Jupyter Notebooks__:  emissions_scrub.ipynb
+* __Scrubbed Data Files__:      co2_ppm.csv and co-emissions-per-capita.csv
 
+### For Correlation and Analysis 
+* __Source File__: temp_data.csv + sealevel_data.csv + population_data.csv + co2_ppm.csv
+* __Jupyter Notebooks__:  climate_combined.ipynb
+* __Scrubbed Data Files__: combinedclimatedata.csv 
 
+### For Machine Learning 2 steps (Step 1. Adding datestamp for Step 2. Analysis Forecasting)
+* __Source File__: combinedclimatedata.csv + datestamp.csv
+* __Jupyter Notebooks__:  Step 1:climate_combined_forprophet.ipynb
+* __Jupyter Notebooks__: Step 2:prophet_timeseries_prediction_final.ipynb
 
 #### Challenges
 Access to more correlative datasets like cars/planes/solar panels    
