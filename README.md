@@ -56,11 +56,13 @@ According to this regression line, the population has a direct correlation to CO
 ![CO2 emissions with population](images/population_to_co2.png)
 
 * CO2 Emissions over time. 
+
 ![CO2 emissions with population](images/CO2_emission_overtime.png)
+
  linear regression model based on year and total CO2 emission tons per capita. 
-~ The peak you see prior to 2006 is the rapid growth of carbon emissions with no sign of slowing down! 
-~ However, it quickly declining by 14% from the peak in 2005 and end in 2016; 
-~ The drop you see results from our new alternative technologies. Main 3 technologies are:  
+The peak you see prior to 2006 is the rapid growth of carbon emissions with no sign of slowing down! 
+However, it quickly declining by 14% from the peak in 2005 and end in 2016; 
+The drop you see results from our new alternative technologies. Main 3 technologies are:  
 The power sector are switching gear from coal to gas 
 3% use of Solar technology   
 17% use of Wind technology   
