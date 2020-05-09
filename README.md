@@ -54,7 +54,6 @@ This chart shows that temperature rises with population.  According to this regr
 * CO2 Emissions as related to Population growth
 According to this regression line, the population has a direct correlation to CO2 Emissions. 
 
-![CO2 emissions with population](images/population_to_co2.png)
 
 * CO2 Emissions over time. 
 
