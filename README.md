@@ -3,14 +3,15 @@
 ## By John Byun, Kat Anggasastra, Melissa Wright and Molly Cox
 ### [With additional technical support from tutors Mark Steadman and Alexis McKenzie]
 ## The Task
-1. Find a problem worth solving, analyzing, or visualizing
+1. Find a problem worth solving, analyzing, or visualizing: Problem: Climate Change
 2. Use ML in the context of technologies learned.
-3. Use: Scikit-Learn and/or another machine learning library. We use: SkLearn AND Prophet  https://facebook.github.io/prophet/
-4. Use at least two of: We Use:  Python Pandas , Python Matplotlib , Plotly, Tableau
+3. Use: Scikit-Learn and/or another machine learning library. We used: SkLearn AND Prophet  https://facebook.github.io/prophet/
+4. Use at least two of: We Use:  Python Pandas , Python Matplotlib , Plotly, and Tableau
 5. 15-minute data deep-dive or infrastructure walkthrough that shows machine learning in the context of what we’ve already learned.
 6. Examples: Create an analysis of existing data to make a prediction, classification, or regression. We use: Prediction and Regression
 
 ## Story/Presentation
+Link to our presentation: https://docs.google.com/presentation/d/1W4qb2kSybrv-npmgUroosTjibiVxcqSSfeEkr-MFHPc/edit?usp=sharing
 
  ## Climate Analysis and Forecasting with Machine Learning (1993-2015)
 
