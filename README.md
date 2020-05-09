@@ -24,7 +24,7 @@ Link to our presentation: https://docs.google.com/presentation/d/1W4qb2kSybrv-np
 #### Summary:
 * We compared data of temperature, sea level, CO2 emissions and population from 1993-2015. We levered our machine learning forecast to  answer at When will the temperature rise to a dangerous level of 16.37 𝇈C /61.47𝇈F? Our research and analysis showed that there is a positive trend in the rise of population, CO2 emissions, temperature and global mean sea level. We leveraged machine learning to create a forecast for the next 10 years. Our model showed as a good model from the testing and training data. The forecast showed a positive trend that we saw that we will reach the concerning temperature between 2028-2038 . We used sklearn and prophet along with visualizations in Tableau to examine our datasets. Our sources of data are all listed below at the bottom of this paper. 
 
-### Our question : "When will we reach the concerning temperature?" 
+#### Our question : "When will we reach the concerning temperature?" 
 
 * CO2 emissions from burning fossil fuels. CO2 emissions are also produced by natural processes, but up to 1880, the earth could absorb those and keep temperatures stable. Man-made emissions are pushing the Earth out of balance,  causing more CO2 to stay in the atmosphere and create a “greenhouse gas” effect to warm the planet. 
 
@@ -35,7 +35,7 @@ Effects of Climate Change:
 * Sea Level - Sea Level is constantly ranging as it is affected by tidal changes. Satellite sensors are used to measure the global mean sea level. Overall sea level rising causes coastal flooding resulting in islands to be submerged, consequently causing displacements of population therefore it is an important dataset to monitor. Data used from 1993-2015 was the global mean sea level and that number averaged by year shows a downward trend.  Data from 1993-2020 was also looked at further and that showed an upward trend.  
 
 
-#### Analysis:
+### Analysis:
 
 * Temperature rise by Year:
 We took the temperature dataset from Berkeley Earth, which had temperature data going back to 1850.  We used the average combined land and sea temperature for that year.  Our regression produced the following plot:
