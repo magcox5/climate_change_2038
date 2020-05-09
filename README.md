@@ -32,8 +32,7 @@ Link to our presentation: https://docs.google.com/presentation/d/1W4qb2kSybrv-np
 
 Effects of Climate Change:
 * Temperatures - increasing - leads to more extreme weather events and melting of sea ice, which leads to:
-* Sea Level - Sea Level is constantly ranging as it is affected by tidal changes. Satellite sensors are used to measure the global mean sea level. Overall sea level rising causes coastal flooding resulting in islands to be submerged, consequently causing displacements of population therefore it is an important dataset to monitor. Data used from 1993-2015 was the global mean sea level and that number averaged by year shows a downward trend.  Data from 1993-2020 was also looked at further and that showed an upward trend.  
-
+* Sea Level - Sea Level is constantly ranging as it is affected by tidal changes. Satellite sensors are used to measure the global mean sea level. Overall sea level rising causes coastal flooding resulting in islands to be submerged, consequently causing displacements of population therefore it is an important dataset to monitor. 
 
 ### Analysis:
 
@@ -78,7 +77,15 @@ China’s ppm is rather low because in they only ramping up since 1947.
 
 ##### Update 30 April 2020: The International Energy Agency has forecast the CO2 impact of the crisis, suggesting emissions could fall by 8% this year, some 2,600MtCO2. It draws on more recent data and covers 100% of global emissions, whereas Carbon Brief’s estimate was based on information covering only around 75% of the total. Global emissions would need to fall by some 7.6% every year this decade  – in order to limit warming to less than 1.5C above pre-industrial temperatures.
 
+* Sea Level rise over time. Data used from 1993-2015 was the global mean sea level and that number averaged by year shows a linear and downward trend because it is incomplete.  Data from 1993-2020 was also looked at further and that showed an upward trend.  
 
+![sealevel limited](images/sealevel_overtime_1993-2015.png)
+
+* Now let's look at the full picture
+![Sea Level Rise over time](images/sealevel_scrub_fig1.png)
+
+* Now let's look at every data point without outliers 
+![Sea Level All Datapoints over time without outliers](images/sealevel__removed_outliers-1993-2020.png)
 
 
 #### General Visualization
@@ -117,9 +124,9 @@ population_to_co2, co2_to_temp, pop_to_temp, Min_vs_Max_Temp, Year_to_Temp_corre
 Data Source: https://sealevel.nasa.gov/understanding-sea-level/key-indicators/global-mean-sea-level/
 This dataset contains the Global Mean Sea Level (GMSL) generated from the Integrated Multi-Mission Ocean Altimeter Data for Climate Research (GMSL dataset) available for download. 
 * __Source File__: GMSL_merged_nasa_1993_2020
-* __Jupyter Notebooks__:  sealevel_scrub.ipynb
-* __Scrubbed Data Files__:  sealevel_data.csv
-* __Visualization Images (.png)__
+* __Jupyter Notebooks__:  sealevel_scrub.ipynb, sealevel_scrub_2_for_visuals_by_day.ipynb, Sealevel_visualizations.ipynb
+* __Analysis Files__:  sealevel_data.csv, sealevel_data__all_1993-2020.csv, rm_outliers_grouped_sealevel_data.csv, data/sealevel_data__all_1993-2020.csv,   rm_outliers_sealevel_1993-2020.csv
+* __Visualization Images (.png)__: sealevel_scrub_fig1, sealevel_scrub_fig2, sealevel_overtime_1993-2015, sealevelovertime1993-2020, sealevel__removed_outliers-1993-2020, sealevel_removed_outliers-1993-2015
 
 #### Population Data found :
 
@@ -145,6 +152,7 @@ CO2_emission_overtime.png, CO2_ppm.png, CO2_emission_tons_per_capita.png
 * __Source File__: combinedclimatedata.csv + datestamp.csv
 * __Jupyter Notebooks__:  Step 1:climate_combined_forprophet.ipynb
 * __Jupyter Notebooks__: Step 2:prophet_timeseries_prediction_final.ipynb
+*__Visualization Images (.png)__: __basic prediction__: ML_basic_fig1.png, __trend of prediction__ :ML_trend_fig2.png. Machine Learning : __change points__: ML_change_temp_fig4.png, __forecasting images__: ML_forecast_temp_fig6.png and ML_forecast_yearly_fig8.png. Testing/Training images: ML_train_model_fig9.png 
 
 #### Challenges
 Access to more correlative datasets like cars/planes/solar panels    
