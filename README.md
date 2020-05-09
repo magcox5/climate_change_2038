@@ -49,7 +49,7 @@ Using the same temperature dataset for the years 1993 to 2015, we looked at the 
 
 ![sklearn regression population to temp](images/pop_to_temp.png)
 
-This chart shows that temperature rises with population.  According to this regression line, a temperature of 16.37 would be reached when the population reaches approximately 9.29 Billion, which is in the ballpark for projected population size for that year.
+This chart shows that temperature rises with population. Contributing factors to the rise from the 1980's could be interpreted as a loss in balance for the earth to naturally handle the levels of CO2.  According to this regression line, a temperature of 16.37 would be reached when the population reaches approximately 9.29 Billion, which is in the ballpark for projected population size for that year.
 
 * CO2 Emissions as related to Population growth
 According to this regression line, the population has a direct correlation to CO2 Emissions. 
