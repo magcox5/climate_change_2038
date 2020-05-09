@@ -118,7 +118,7 @@ China’s ppm is rather low because in they only ramping up since 1947.
 
 ![ML 3](images/ML_train_model_fig9.png)
 
-## Conclusion: 
+# Conclusion: 
 
 Our research showed a positive trend and forecasted 18 years until the dangerous level is reached.  We used sklearn and visualizations in Tableau and the sources of data included: NASA, Berkeley Earth, United Nations.__Findings__: The multivariate prediction models indicate that we will reach the concerning temperatures by 2038.
 
