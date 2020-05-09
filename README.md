@@ -25,10 +25,9 @@
 
 ![ML 1](images/ML_trend_fig2.png)
 
-
 ![ML 2](images/ML_train_model_fig8.png)
 
-![ML 2](images/ML_forecast_yearly_fig7.png)
+![ML 3](images/ML_forecast_yearly_fig7.png)
 
 
 ### Datasets
