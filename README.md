@@ -12,7 +12,7 @@
 
 ## Story/Presentation
 
- # Climate Analysis and Forecasting with Machine Learning (1993-2015)
+ ## Climate Analysis and Forecasting with Machine Learning (1993-2015)
 
 #### Motivation:  
 * Inspired by Earth Day, and our previous research on contributing factors to CO2 emissions from our first bootcamp project (Commute Chaos), we decided to research historical datasets to make climate predictions with machine learning. We also wondered what impacts the global shelter-in place might have on the climate. We looked at population, emissions and what relationship they have on temperature, the melting of glaciers and rise in sea level. Climate Scientists tell us that the Earth is warming, which will have catastrophic global effects, so our team used machine learning to study just how soon we will reach the dangerous temperatures climate scientists may be referring to. 
@@ -21,7 +21,7 @@
 * According to the Paris Climate Agreement of 2015,  the global goal is to limit the overall increase in global temperature by 1.5℃ or less from the average prior to pre-industrial times. Determining how to calculate the starting temperature is controversial, but for the sake of argument, we took the average temperature in our dataset for 1850, which was around 14.87℃ or 58.76℉. An increase of 1.5℃ would be 16.37℃, or 61.47℉.  
 
 #### Summary:
-* We compared data of temperature, sea level, CO2 emissions and population from 1993-2015. We levered our machine learning forecast to  answer at When will the temperature rise to a dangerous level of 16.37 𝇈C /61.47𝇈F? Our research and analysis showed that there is a positive trend in the rise of population, CO2 emissions, temperature and global mean sea level. We leveraged machine learning to create a forecast for the next 10 years. Our model showed as a good model from the testing and training data. The forecast showed a positive trend that we saw that between 2028-2038 we will reach the concerning temperature. We used sklearn and prophet along with visualizations in Tableau to examine our datasets. Our sources of data are all listed below at the bottom of this paper. 
+* We compared data of temperature, sea level, CO2 emissions and population from 1993-2015. We levered our machine learning forecast to  answer at When will the temperature rise to a dangerous level of 16.37 𝇈C /61.47𝇈F? Our research and analysis showed that there is a positive trend in the rise of population, CO2 emissions, temperature and global mean sea level. We leveraged machine learning to create a forecast for the next 10 years. Our model showed as a good model from the testing and training data. The forecast showed a positive trend that we saw that we will reach the concerning temperature between 2028-2038 . We used sklearn and prophet along with visualizations in Tableau to examine our datasets. Our sources of data are all listed below at the bottom of this paper. 
 
 ### Our question : "When will we reach the concerning temperature?" 
 
@@ -31,10 +31,7 @@
 
 Effects of Climate Change:
 * Temperatures - increasing - leads to more extreme weather events and melting of sea ice, which leads to:
-* Sea Level - Sea Level is constantly ranging as it is affected by tidal changes. Satellite sensors are used to measure the global mean sea level. Overall sea level rising causes coastal flooding resulting in islands to be submerged, consequently causing displacements of population therefore it is an important dataset to monitor.
-Data used from 1993-2015 was the global mean sea level and that number averaged by year shows a downward trend
-Data from 1993-2020 was also looked at further and that showed an upward trend.  
-
+* Sea Level - Sea Level is constantly ranging as it is affected by tidal changes. Satellite sensors are used to measure the global mean sea level. Overall sea level rising causes coastal flooding resulting in islands to be submerged, consequently causing displacements of population therefore it is an important dataset to monitor. Data used from 1993-2015 was the global mean sea level and that number averaged by year shows a downward trend.  Data from 1993-2020 was also looked at further and that showed an upward trend.  
 
 
 #### Analysis:
@@ -80,18 +77,18 @@ China’s ppm is rather low because in they only ramping up since 1947.
 ![ML 3](images/ML_train_model_fig9.png)
 
 
-### Datasets
+## Datasets & Data Scrubbing Process
 
-
-## Scrubbing Process 
-#### Temperature Data found in Kaggle:  https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data#GlobalTemperatures.csv
+#### Temperature Data
+Data Source:  https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data#GlobalTemperatures.csv
 Original Source is Berkeley Earth Surface Temperature Study, a group affiliated with Lawrence Berkeley National Laboratory
 We are interested in Average Yearly Land and Ocean Data from 1990 on.
 * Source File:        GlobalTemperatures.csv
 * Jupyter Notebooks:   Temp_Scrub, Temp_Scrub-AllYears, Temp_Scrub-AllYears-Min-Max
 * Scrubbed Files:      temp_data.csv, temp_data-AllYears.csv, temp_data-Min-Max.csv
 
-#### Sea Level Data found in NASA Website: https://sealevel.nasa.gov/understanding-sea-level/key-indicators/global-mean-sea-level/
+#### Sea Level Data 
+Data Source: https://sealevel.nasa.gov/understanding-sea-level/key-indicators/global-mean-sea-level/
 This dataset contains the Global Mean Sea Level (GMSL) generated from the Integrated Multi-Mission Ocean Altimeter Data for Climate Research (GMSL dataset) available for download. 
 * Source File: GMSL_merged_nasa_1993_2020
 * Jupyter Notebook:   sealevel_scrub.ipynb
@@ -99,7 +96,6 @@ This dataset contains the Global Mean Sea Level (GMSL) generated from the Integr
 
 
 #### Population Data found :
-
 
 * Source File:        WORLD_POP.csv 
 * Jupyter Notebook:   population_scrub.ipynb
@@ -112,12 +108,9 @@ This dataset contains the Global Mean Sea Level (GMSL) generated from the Integr
 * Scrubbed File:      co2_ppm.csv and co-emissions-per-capita
 
 
-### DATA CLEANING PROCESS 
+
+ ## Challenges
 
 
 
- ### Challenges
-
-
-
- ### If we had more time...
+ ## If we had more time...
