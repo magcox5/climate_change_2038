@@ -14,14 +14,21 @@
 
 
 
-#### Tableau Visualization
+#### General Visualization
 
-<<<<<<< HEAD
-        
+      
 
 =======
 ![Tableau all ](images/Tableau_all_fig1.png)
->>>>>>> 097175861b7a10520adae3aa1fa628b6b37c5286
+
+##### Machine Learning Visualization 
+
+![ML 1](images/ML_trend_fig2.png)
+
+
+![ML 2](images/ML_train_model_fig8.png)
+
+![ML 2](images/ML_forecast_yearly_fig7.png)
 
 
 ### Datasets
