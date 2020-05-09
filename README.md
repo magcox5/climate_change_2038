@@ -128,10 +128,13 @@ This dataset contains the Global Mean Sea Level (GMSL) generated from the Integr
 * __Scrubbed Data Files__: population_data.csv
 
 #### Emissions Data found :
-
-* __Source File__:        CO2_data
+Data Source: https://ourworldindata.org/grapher/co-emissions-per-capita?tab=chart&country=AUS+CAN+USA+OWID_WRL - This dataset    contains Global CO2 emission per capita from 1800 to 2017 to measure our total CO2 from the past to current. 
+             https://ourworldindata.org/co2-and-other-greenhouse-gas-emissions - Needed 2nd dataset for our machine learning prediction as it has more accuracy based on the CO2 ppm.  
+* __Source File__:        co2-concentration-long-term.csv, co-emissions-per-capita.csv
 * __Jupyter Notebooks__:  emissions_scrub.ipynb
 * __Scrubbed Data Files__:      co2_ppm.csv and co-emissions-per-capita.csv
+* __Visualization Images (.png)__:
+CO2_emission_overtime.png, CO2_ppm.png, CO2_emission_tons_per_capita.png
 
 ### For Correlation and Analysis 
 * __Source File__: temp_data.csv + sealevel_data.csv + population_data.csv + co2_ppm.csv
