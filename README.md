@@ -92,7 +92,7 @@ China’s ppm is rather low because in they only ramping up since 1947.
 
 #####  Machine Learning Prediction
 
-![ML 2](images/ML_forecast_daily_fig7.png)
+![ML 2](images/ML_forecast_yearly_fig8.png)
 
 ##### Machine Learning Testing/Training
 
