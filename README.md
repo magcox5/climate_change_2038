@@ -34,7 +34,7 @@ Effects of Climate Change:
 * Sea Level - Sea Level is constantly ranging as it is affected by tidal changes. Satellite sensors are used to measure the global mean sea level. Overall sea level rising causes coastal flooding resulting in islands to be submerged, consequently causing displacements of population therefore it is an important dataset to monitor.
 Data used from 1993-2015 was the global mean sea level and that number averaged by year shows a downward trend
 Data from 1993-2020 was also looked at further and that showed an upward trend.  
-Supporting Images: ![Tableau Sea Temp](images/Tableau_sea_temp_fig1.png)
+
 
 
 #### Analysis:
