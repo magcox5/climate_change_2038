@@ -58,7 +58,7 @@ According to this regression line, the population has a direct correlation to CO
 * CO2 Emissions over time. 
 
 ![CO2 emissions with population](images/CO2_emission_overtime.png)
-
+ 
  linear regression model based on year and total CO2 emission tons per capita. 
 The peak you see prior to 2006 is the rapid growth of carbon emissions with no sign of slowing down! 
 However, it quickly declining by 14% from the peak in 2005 and end in 2016; 
