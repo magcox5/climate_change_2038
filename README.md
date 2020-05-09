@@ -131,8 +131,13 @@ This dataset contains the Global Mean Sea Level (GMSL) generated from the Integr
 
 
 
- ## Challenges
+#### Challenges
+Access to more correlative datasets like cars/planes/solar panels    
+More historical data for all climate change datasets
+Limitations in access to granular level was not available 
 
+#### What would you research next, if you had two more weeks
+Analyzing fewer years gave a completely opposite picture. 
+Ice melting data as it relates to climate change.
+Included more emissions into our forecasting models 
 
-
- ## If we had more time...
