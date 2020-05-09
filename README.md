@@ -172,12 +172,12 @@ CO2_emission_overtime.png, CO2_ppm.png, CO2_emission_tons_per_capita.png
 *__Visualization Images (.png)__: __basic prediction__: ML_basic_fig1.png, __trend of prediction__ :ML_trend_fig2.png. Machine Learning : __change points__: ML_change_temp_fig4.png, __forecasting images__: ML_forecast_temp_fig6.png and ML_forecast_yearly_fig8.png. Testing/Training images: ML_train_model_fig9.png 
 
 #### Challenges
-Access to more correlative datasets like cars/planes/solar panels    
-More historical data for all climate change datasets
-Limitations in access to granular level was not available 
+* Access to more correlative datasets like cars/planes/solar panels    
+* Access to historical data for all climate change datasets
+* Access to granular level or wetland data, ice melting data etc. 
 
 #### What would you research next, if you had two more weeks
-Analyzing fewer years gave a completely opposite picture. 
-Ice melting data as it relates to climate change.
-Included more emissions into our forecasting models 
+* Add More historical data for all climate change datasets
+* Add Ice melting data as it relates to climate change.
+* Added more emissions into our forecasting models 
 
