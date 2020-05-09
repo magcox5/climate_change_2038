@@ -50,12 +50,22 @@ Using the same temperature dataset for the years 1993 to 2015, we looked at the 
 
 This chart shows that temperature rises with population.  According to this regression line, a temperature of 16.37 would be reached when the population reaches approximately 9.29 Billion, which is in the ballpark for projected population size for that year.
 
+* CO2 Emissions as related to Population growth
+According to this regression line, the population has a direct correlation to CO2 Emissions. 
+
+![CO2 emissions with population](images/population_to_co2.png)
+
+* CO2 Emissions per capita by country. 
 ![CO2 emissions tons per capita](images/CO2_emission_tons_per_capita.png)
+According to this Tableau visualization, The map shows the top 10 culprits with the highest CO2 emission per capita
+* But hey look! US is number one on the list since 1945! 
+* However, the one unexpected one is Trinidad and Tobago - a tiny little country off the coast northeastern Venezuela is #8 on the list! 
 
 * The map shows the total sum of co2 tons per capita breakdown by each country from 1949 - 2017. Top 4 CO2 emission countries are: United States(2,136), England(1,927), Australia(1,187), and Canada(1,519)   According to our other data on co2 based on yearly average ppm(parts per millions); the report mentions that the ppm had rapidly grown since 1910 where the ppm is around 300 and now in 2018, are at 408.52. In the past 108 years, our co2 ppm had grown 108.52 around 1% per each year. 
 China’s ppm is rather low because in they only ramping up since 1947.
 
 ##### Update 30 April 2020: The International Energy Agency has forecast the CO2 impact of the crisis, suggesting emissions could fall by 8% this year, some 2,600MtCO2. It draws on more recent data and covers 100% of global emissions, whereas Carbon Brief’s estimate was based on information covering only around 75% of the total. Global emissions would need to fall by some 7.6% every year this decade  – in order to limit warming to less than 1.5C above pre-industrial temperatures.
+
 
 
 
