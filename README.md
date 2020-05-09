@@ -42,14 +42,14 @@ We took the temperature dataset from Berkeley Earth, which had temperature data 
 ![sklearn regression year to temp](images/Year_to_Temp_correlation.png)
 
 
-* The chart shows a slow increase in temperature from 1850 to roughly 1980, and then a sharper rise noted by the regression line.  Plugging in the temperature 16.37 into the linear equation, the Year this temperature is reached would be 2038.
+* The chart shows a slow increase in temperature from 1850 to roughly 1980, and then a sharper rise noted by the regression line. <strong> Contributing factors to the rise from the 1980's could be interpreted as a loss in balance for the earth to naturally handle the levels of CO2. </strong>   Plugging in the temperature 16.37 into the linear equation, the Year this temperature is reached would be 2038.
 
 * Temperature rise based on population:
 Using the same temperature dataset for the years 1993 to 2015, we looked at the relationship between population data and temperature. Our regression produced this plot:
 
 ![sklearn regression population to temp](images/pop_to_temp.png)
 
-This chart shows that temperature rises with population. Contributing factors to the rise from the 1980's could be interpreted as a loss in balance for the earth to naturally handle the levels of CO2.  According to this regression line, a temperature of 16.37 would be reached when the population reaches approximately 9.29 Billion, which is in the ballpark for projected population size for that year.
+This chart shows that temperature rises with population.  According to this regression line, a temperature of 16.37 would be reached when the population reaches approximately 9.29 Billion, which is in the ballpark for projected population size for that year.
 
 * CO2 Emissions as related to Population growth
 According to this regression line, the population has a direct correlation to CO2 Emissions. 
