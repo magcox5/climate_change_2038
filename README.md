@@ -16,8 +16,6 @@
 
 #### General Visualization
 
-      
-
 =======
 ![Tableau all ](images/Tableau_all_fig1.png)
 
@@ -25,7 +23,11 @@
 
 ![ML 1](images/ML_trend_fig2.png)
 
+#####  Machine Learning Visualization 2 
+
 ![ML 2](images/ML_train_model_fig8.png)
+
+##### Machine Learning Visualization 2 
 
 ![ML 3](images/ML_forecast_yearly_fig7.png)
 
