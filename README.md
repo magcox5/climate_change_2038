@@ -55,6 +55,16 @@ According to this regression line, the population has a direct correlation to CO
 
 ![CO2 emissions with population](images/population_to_co2.png)
 
+* CO2 Emissions over time. 
+![CO2 emissions with population](images/CO2_emission_overtime.png)
+ linear regression model based on year and total CO2 emission tons per capita. 
+~ The peak you see prior to 2006 is the rapid growth of carbon emissions with no sign of slowing down! 
+~ However, it quickly declining by 14% from the peak in 2005 and end in 2016; 
+~ The drop you see results from our new alternative technologies. Main 3 technologies are:  
+The power sector are switching gear from coal to gas 
+3% use of Solar technology   
+17% use of Wind technology   
+
 * CO2 Emissions per capita by country. 
 ![CO2 emissions tons per capita](images/CO2_emission_tons_per_capita.png)
 According to this Tableau visualization, The map shows the top 10 culprits with the highest CO2 emission per capita
