@@ -83,13 +83,18 @@ China’s ppm is rather low because in they only ramping up since 1947.
 linear regression model based on year and global mean sea level. 
 The outliers appear to be a result in the changes of sattelites used. 
 
+
 * Now let's look at the full picture
 ![Sea Level Rise over time](images/sealevel_scrub_fig1.png)
+
 linear regression model based on year and global mean sea level but now looking at the fuller range time period. 
 The outliers remain and appear to be a result in the changes of sattelites used but we now see an upward trend. 
 
+
 * Now let's look at every data point without outliers 
 ![Sea Level All Datapoints over time without outliers](images/sealevel__removed_outliers-1993-2020.png)
+
+
 linear regression model based on year and global mean sea level but now looking at the fuller range time period with the data from the measures of sea level taken every 10 days by the sattelite. This helps us form a better picture and see a rise in sea level over time. 
 
 
