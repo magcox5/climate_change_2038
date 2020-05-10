@@ -40,7 +40,7 @@ Effects of Climate Change:
 During the period from 1900-2020, the human population grew from 2.5 billion to 7.7 billion people, a greater than 3 fold increase, in a matter 70 years, with an increase of 2.2 billion from 1993 to 2020, the chosen time period for our study. 
 
 * Increase in CO2 Emissions based on population: 
-A greatly increased human reliance on mechanized transportation over the past 1.5 centuries has led to greatly increased consumption of fossil fuels and CO2 emissions into the atmosphere.   Our regression model pointed to a strong relationship between the increasing population and an increase in CO2 concentration in the atmosphere as measured in parts per million. 
+A greatly increased human reliance on mechanized transportation over the past 1.5 centuries has led to greatly increased consumption of fossil fuels and CO2 emissions into the atmosphere.   The linear regression model pointed to a strong relationship between the increasing population and an increase in CO2 concentration in the atmosphere as measured in parts per million. 
 
 * Temperature rise by Year:
 We took the temperature dataset from Berkeley Earth, which had temperature data going back to 1850.  We used the average combined land and sea temperature for that year.  Our regression produced the following plot:
