@@ -6,7 +6,7 @@
 1. Find a problem worth solving, analyzing, or visualizing: Problem: Climate Change
 2. Use ML in the context of technologies learned.
 3. Use: Scikit-Learn and/or another machine learning library. We used: SkLearn AND Prophet  https://facebook.github.io/prophet/
-4. Use at least two of: We Use:  Python Pandas , Python Matplotlib , Plotly, and Tableau
+4. Other software used:  Python Pandas , Python Matplotlib , Plotly, and Tableau
 5. 15-minute data deep-dive or infrastructure walkthrough that shows machine learning in the context of what we’ve already learned.
 6. Examples: Create an analysis of existing data to make a prediction, classification, or regression. We use: Prediction and Regression
 
@@ -16,13 +16,13 @@ Link to our presentation: https://docs.google.com/presentation/d/1W4qb2kSybrv-np
  ## Climate Analysis and Forecasting with Machine Learning (1993-2015)
 
 #### Motivation:  
-* Inspired by Earth Day, and our previous research on contributing factors to CO2 emissions from our first bootcamp project (Commute Chaos), we decided to research historical datasets to make climate predictions with machine learning. We also wondered what impacts the global shelter-in place might have on the climate. We looked at population, emissions and what relationship they have on temperature, the melting of glaciers and rise in sea level. Climate Scientists tell us that the Earth is warming, which will have catastrophic global effects, so our team used machine learning to study just how soon we will reach the dangerous temperatures climate scientists may be referring to. 
+* Inspired by Earth Day, and our previous research on contributing factors to CO2 emissions from our first bootcamp project (Commute Chaos), we decided to research historical datasets to make climate predictions with machine learning. We looked at population, emissions and what relationship they have on temperature, the melting of glaciers and rise in sea level. Climate Scientists tell us that the Earth is warming, which will have catastrophic global effects, so our team used machine learning and linear regressions to study just how soon we will reach the dangerous temperatures climate scientists may be referring to. 
 
 ####  Background: 
 * According to the Paris Climate Agreement of 2015,  the global goal is to limit the overall increase in global temperature by 1.5℃ or less from the average prior to pre-industrial times. Determining how to calculate the starting temperature is controversial, but for the sake of argument, we took the average temperature in our dataset for 1850, which was around 14.87℃ or 58.76℉. An increase of 1.5℃ would be 16.37℃, or 61.47℉.  
 
 #### Summary:
-* We compared data of temperature, sea level, CO2 emissions and population from 1993-2015. We levered our machine learning forecast to  answer at When will the temperature rise to a dangerous level of 16.37 𝇈C /61.47𝇈F? Our research and analysis showed that there is a positive trend in the rise of population, CO2 emissions, temperature and global mean sea level. We leveraged machine learning to create a forecast for the next 10 years. Our model showed as a good model from the testing and training data. The forecast showed a positive trend that we saw that we will reach the concerning temperature between 2028-2038 . We used sklearn and prophet along with visualizations in Tableau to examine our datasets. Our sources of data are all listed below at the bottom of this paper. 
+* We compared data of temperature, sea level, CO2 emissions and population from 1993-2015. We used our machine learning forecast to  answer "When will the temperature rise to a dangerous level of 16.37 𝇈C /61.47𝇈F?" Our research and analysis showed that there is a positive trend in the rise of population, CO2 emissions, temperature and global mean sea level. We leveraged machine learning to create a forecast for the next 10 years. The forecast showed a positive trend, and projected that we will reach the concerning temperature by 2038 . We used sklearn and prophet along with visualizations in Tableau to examine our datasets. (Data sources are listed at the bottom of this paper.) 
 
 #### Our question : "When will we reach the concerning temperature?" 
 
@@ -31,8 +31,9 @@ Link to our presentation: https://docs.google.com/presentation/d/1W4qb2kSybrv-np
 * Population -  increased population results in increased energy consumption and fossil fuel burning, which would lead to higher CO2 levels.
 
 Effects of Climate Change:
-* Temperatures - increasing - leads to more extreme weather events and melting of sea ice, which leads to:
-* Sea Level - Sea Level is constantly ranging as it is affected by tidal changes. Satellite sensors are used to measure the global mean sea level. Overall sea level rising causes coastal flooding resulting in islands to be submerged, consequently causing displacements of population therefore it is an important dataset to monitor. 
+* Temperatures - increasing - leads to more extreme weather events and melting of sea ice, which leads to:  
+  
+* Sea Level - Sea Level is difficult to measure due to tidal changes. Satellite sensors are used to measure the global mean sea level. Overall sea level rising causes coastal flooding, resulting in islands to be submerged and population displacement. Therefore sea level rise is an important dataset to monitor. 
 
 ### Analysis:
 
@@ -52,10 +53,10 @@ We took the temperature dataset from Berkeley Earth, which had temperature data 
 ![sklearn regression year to temp](images/Year_to_Temp_correlation.png)
 
 
-* The chart shows a slow increase in temperature from 1850 to roughly 1980, and then a sharper rise noted by the regression line. <strong> Contributing factors to the rise from the 1980's could be interpreted as a loss in balance for the earth to naturally handle the levels of CO2. </strong>   Plugging in the temperature 16.37 into the linear equation, the Year this temperature is reached would be 2038.
+* The chart shows a slow increase in temperature from 1850 to roughly 1980, and then a sharper rise noted by the regression line. <strong> Contributing factors to the rise from the 1980's could be interpreted as a loss in earth's ability to naturally handle the levels of CO2. </strong>   Plugging in the temperature 16.37 into the linear equation, the Year this temperature is reached would be 2038.
 
 * Temperature rise based on population:
-Using the same temperature dataset for the years 1993 to 2015, we looked at the relationship between population data and temperature. Our regression produced this plot:
+Using the temperature dataset for the years 1993 to 2015, we looked at the relationship between population data and temperature. Our regression produced this plot:
 
 ![sklearn regression population to temp](images/pop_to_temp.png)
 
@@ -69,11 +70,11 @@ According to this regression line, the population has a direct correlation to CO
 
 ![CO2 emissions with population](images/CO2_emission_overtime.png)
  
- linear regression model based on year and total CO2 emission tons per capita. 
+The linear regression model is based on year and total CO2 emission tons per capita. 
 The peak you see prior to 2006 is the rapid growth of carbon emissions with no sign of slowing down! 
-However, it quickly declining by 14% from the peak in 2005 and end in 2016; 
+However, it quickly decliness by 14% from the peak in 2005 and end in 2016; 
 The drop you see results from our new alternative technologies. Main 3 technologies are:  
-The power sector are switching gear from coal to gas 
+Natural Gas used by power plants instead of coal 
 3% use of Solar technology   
 17% use of Wind technology   
 
@@ -89,6 +90,7 @@ According to this Tableau visualization, The map shows the top 10 culprits with 
 ![](images/annual_CO2_by_country.png)
 
 ##### Update 30 April 2020: The International Energy Agency has forecast the CO2 impact of the crisis, suggesting emissions could fall by 8% this year, some 2,600MtCO2. It draws on more recent data and covers 100% of global emissions, whereas Carbon Brief’s estimate was based on information covering only around 75% of the total. Global emissions would need to fall by some 7.6% every year this decade  – in order to limit warming to less than 1.5C above pre-industrial temperatures.
+(From  https://www.carbonbrief.org/analysis-coronavirus-set-to-cause-largest-ever-annual-fall-in-co2-emissions)
 
 * Sea Level rise over time. Data used from 1993-2015 was the global mean sea level and that number averaged by year shows a linear and downward trend because it is incomplete.  Data from 1993-2020 was also looked at further and that showed an upward trend.  
 
