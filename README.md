@@ -42,7 +42,7 @@ During the period from 1900-2020, the human population grew from 2.5 billion to 
 ![sklearn population](images/population_growth.png)
 
 * Increase in CO2 Emissions based on population: 
-A greatly increased human reliance on mechanized transportation over the past 1.5 centuries has led to greatly increased consumption of fossil fuels and CO2 emissions into the atmosphere.   The linear regression model pointed to a strong relationship between the increasing population and an increase in CO2 concentration in the atmosphere as measured in parts per million. 
+A greatly increased human reliance on mechanized transportation over the past 1.5 centuries has led to greatly increased consumption of fossil fuels and CO2 emissions into the atmosphere.   The linear regression model pointed to a strong relationship between the increasing population and an increase in CO2 concentration in the atmosphere as measured in parts per million, with an R2 value of 0.99 and MSE of 0.32. 
 
 ![sklearn population](images/population_to_co2.png)
 
