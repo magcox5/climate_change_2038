@@ -48,6 +48,7 @@ A greatly increased human reliance on mechanized transportation over the past 1.
 
 * Temperature rise by Year:
 We took the temperature dataset from Berkeley Earth, which had temperature data going back to 1850.  We used the average combined land and sea temperature for that year.  Our regression produced the following plot:
+
 ![sklearn regression year to temp](images/Year_to_Temp_correlation.png)
 
 
