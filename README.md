@@ -159,7 +159,8 @@ This dataset contains the Global Mean Sea Level (GMSL) generated from the Integr
 * __Visualization Images (.png)__: sealevel_scrub_fig1, sealevel_scrub_fig2, sealevel_overtime_1993-2015, sealevelovertime1993-2020, sealevel__removed_outliers-1993-2020, sealevel_removed_outliers-1993-2015
 
 #### Population Data found :
-
+Data Source: https://population.un.org/wpp/Download/Files/1_Indicators%20(Standard)/EXCEL_FILES/1_Population/WPP2019_POP_F01_1_TOTAL_POPULATION_BOTH_SEXES.xlsx
+This source contains an Excel files with historical population by country and region as well as population growth predictions based on various birth fertility scenarios. 
 * __Source File__:        WORLD_POP.csv 
 * __Jupyter Notebooks__:  population_scrub.ipynb, population_to_co2_ml.ipynb
 * __Scrubbed Data Files__: population_data.csv, co2_ppm.csv
