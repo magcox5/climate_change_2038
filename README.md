@@ -37,7 +37,7 @@ Effects of Climate Change:
 ### Analysis:
 
 * Population Increase: 
-During the period from 1900-2020, the human population grew from 2.5 billion to 7.7 billion people, a greater than 3 fold increase in a matter 70 years with an increase of 2.2 billion from 1993 to 2020, the chosen time period for our study. 
+During the period from 1900-2020, the human population grew from 2.5 billion to 7.7 billion people, a greater than 3 fold increase in a matter of just 70 years with an increase of 2.2 billion from 1993 to 2020, the chosen time period for our study. 
 
 ![sklearn population](images/population_growth.png)
 
