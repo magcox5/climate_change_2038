@@ -1,7 +1,6 @@
-# Final_project
+# Climate Change 2038
 
-## By John Byun, Kat Anggasastra, Melissa Wright and Molly Cox
-### [With additional technical support from tutors Mark Steadman and Alexis McKenzie]
+## By Kat Anggasastra, Melissa Wright and Molly Cox (with original project input by John Byun)
 ## The Task
 1. Find a problem worth solving, analyzing, or visualizing: Problem: Climate Change
 2. Use ML in the context of technologies learned.
@@ -11,7 +10,7 @@
 6. Examples: Create an analysis of existing data to make a prediction, classification, or regression. We use: Prediction and Regression
 
 ## Story/Presentation
-Link to our presentation: https://docs.google.com/presentation/d/1W4qb2kSybrv-npmgUroosTjibiVxcqSSfeEkr-MFHPc/edit?usp=sharing
+Link to our presentation: https://docs.google.com/presentation/d/1sH4ZU6X3fqsjRGSjfkX38WQdUEZ3WXy5pJwgmLP9C-U/edit#slide=id.g773e21e8bc_0_6
 
  ## Climate Analysis and Forecasting with Machine Learning (1993-2015)
 
