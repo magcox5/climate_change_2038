@@ -192,7 +192,7 @@ Data Source: https://ourworldindata.org/grapher/co-emissions-per-capita?tab=char
 * Access to granular level or wetland data, ice melting data etc. 
 
 #### What would you research next, if you had two more weeks
-* Add More historical data for all climate change datasets
-* Add Ice melting data as it relates to climate change.
-* Added more emissions into our forecasting models 
+* Add More historical data for all climate change datasets.
+* Add Ice melting data as it relates to climate change and impact on Sea Level rise.
+* Add more emissions into our forecasting models. 
 
