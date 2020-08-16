@@ -32,7 +32,7 @@ Link to our presentation: https://docs.google.com/presentation/d/1sH4ZU6X3fqsjRG
 Effects of Climate Change:
 * Temperatures - increasing - leads to more extreme weather events and melting of sea ice, which leads to:  
   
-* Sea Level - Sea Level is difficult to measure due to tidal changes. Satellite sensors are used to measure the global mean sea level. Overall sea level rising causes coastal flooding, resulting in islands to be submerged and population displacement. Therefore sea level rise is an important dataset to monitor. 
+* Sea Level Rise - Sea Level is difficult to measure due to tidal changes. Satellite sensors are used to measure the global mean sea level. Overall sea level rising causes coastal flooding, resulting in islands to be submerged and population displacement. Therefore sea level rise is an important dataset to monitor. 
 
 ### Analysis:
 
@@ -81,10 +81,10 @@ Natural Gas used by power plants instead of coal
 ![CO2 emissions tons per capita](images/CO2_emission_tons_per_capita.png)
 According to this Tableau visualization, The map shows the top 10 culprits with the highest CO2 emission per capita
 * But hey look! US is number one on the list since 1945! 
-* However, the one unexpected one is Trinidad and Tobago - a tiny little country off the coast northeastern Venezuela is #8 on the list! 
+* However, an unexpected one is Trinidad and Tobago - a tiny little country off the coast northeastern Venezuela is #8 on the list! 
 
-* The map shows the total sum of co2 tons per capita breakdown by each country from 1949 - 2017. Top 4 CO2 emission countries are: United States(2,136), England(1,927), Australia(1,187), and Canada(1,519)   According to our other data on co2 based on yearly average ppm(parts per millions); the report mentions that the ppm had rapidly grown since 1910 where the ppm is around 300 and now in 2018, are at 408.52. In the past 108 years, our co2 ppm had grown 108.52 around 1% per each year. 
-* China’s ppm is rather low because they only began ramping up their industrialization since 1947, however, we see that China is the highest emitter in total CO2 emissions by country on an annual basis. 
+* The map shows the total sum of CO2 tons per capita breakdown by each country from 1949 - 2017. Top 4 CO2 emission countries are: United States(2,136), England(1,927), Australia(1,187), and Canada(1,519)   According to our other data on CO2 based on yearly average ppm(parts per millions); the report mentions that the ppm had rapidly grown since 1910 where the ppm is around 300 and now in 2018, are at 408.52. In the past 108 years, our CO2 ppm had grown 108.52 around 1% per each year. 
+* China’s ppm is rather low because they only began ramping up their industrialization in 1947, however, we see that China is the highest emitter in total CO2 emissions by country on an annual basis. 
 
 ![](images/annual_CO2_by_country.png)
 
